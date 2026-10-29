@@ -1,6 +1,6 @@
 'use strict';
 (()=>{
-const settings={"salt":"BCP2ff4VTt3nzgzaaUpgVw==","iv":"Id0ABqRr1q324mFP","iterations":600000,"files":["activity-01.enc","activity-02.enc","activity-03.enc","activity-04.enc","activity-05.enc"]};
+const settings={"salt":"iXGydG+d7vODi2AisjGb4A==","iv":"tO+X8y5RXW8e66W2","iterations":600000,"files":["activity-01.enc?v=436b3f46e7aeae98","activity-02.enc?v=436b3f46e7aeae98","activity-03.enc?v=436b3f46e7aeae98","activity-04.enc?v=436b3f46e7aeae98","activity-05.enc?v=436b3f46e7aeae98"]};
 const form=document.querySelector('#unlock-form'),field=document.querySelector('#passphrase'),button=document.querySelector('#unlock-button'),message=document.querySelector('#message');
 let ciphertext=null,busy=false;
 function info(text,error=false){message.textContent=text;message.classList.toggle('error',error)}
